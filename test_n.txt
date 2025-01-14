@@ -1,0 +1,53 @@
+!DOCTYPE html: This tells the browser that this is an HTML5 document. ,
+<html>: The root element of the HTML page.,<head>: Contains meta information about the webpage (title, CSS, etc.).,
+<body>: The content of the webpage, such as text, images, and links, goes here. --> 
+
+
+    HTML Base Tag: If you have a base URL that is common to many images, you can use the <base> tag in your HTML file to set a base URL for all relative paths. For example:
+
+    html
+    Copy code
+    <base href="https://example.com/images/">
+    <img src="image.jpg" alt="Description of image">
+
+
+    The required alt attribute for the <img> tag specifies an alternate text for an image, if the
+     image for some reason cannot be displayed. This can be due to a slow connection, or an error in the src attribute, 
+     or if the user uses a screen reader.
+
+     The <img> tag should also contain the width and height attributes, which specify the width and height of the image (in pixels):
+     
+     The style attribute is used to add styles to an element, such as color, font, size, and more.
+
+     ou should always include the lang attribute inside the <html> tag, to declare the language of the Web page.
+         This is meant to assist search engines and browsers.<html lang="en">
+            
+
+
+The HTML <abbr> tag defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".
+
+Marking abbreviations can give useful information to browsers, translation systems and search-engines.
+
+Tip: Use the global title attribute to show the description for the abbreviation/acronym when you mouse over the element. 
+
+Example
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+
+
+
+HTML <cite> for Work Title
+The HTML <cite> tag defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.).
+
+Note: A person's name is not the title of a work.
+
+The text in the <cite> element usually renders in italic.
+
+Example
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+
+
+ <bdo dir="rtl">Urdu h bhen ke lund</bdo> // reverse
+
+ 
+ <h1 style="border:2px solid Tomato;">Hello World</h1>
